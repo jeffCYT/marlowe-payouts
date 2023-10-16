@@ -94,7 +94,7 @@ const Payouts: React.FC<PayoutsProps> = ({ setAndShowToast, runtimeURL }) => {
           const error = JSON.parse(err);
           const { message } = error;
           setAndShowToast(
-            'Failed Retrieving Payouts Infornation',
+            'Failed Retrieving Payouts Information',
             <span className='text-color-white'>{message}</span>,
             true)
         })
